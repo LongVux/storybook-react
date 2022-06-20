@@ -35,7 +35,7 @@ export default function Task({
         {state !== "TASK_ARCHIVED" && (
           <a onClick={() => onPinTask(id)}>
             <span
-              className={`icon-start`}
+              className={`icon-star`}
               id={`pinTask-${id}`}
               aria-label={`pinTask-${id}`}
             />
